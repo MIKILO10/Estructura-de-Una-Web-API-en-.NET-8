@@ -1,6 +1,6 @@
 ﻿using Estructura.Software.Web.API.Interfaces;
 
-namespace Estructura.Software.Web.API.Services
+namespace Estructura.Software.Web.Application.Application.Services
 {
     public interface IServiceWhoIAm
     {
@@ -23,9 +23,9 @@ namespace Estructura.Software.Web.API.Services
 
         public dynamic Invoke() => new
         {
-            Singleton = this.singletonWhoIAm.TellMeYourId(),
-            Scoped = this.scopeWhoIAm.TellMeYourId(),
-            Transient = this.transientWhoIAm.TellMeYourId()
+            Singleton = singletonWhoIAm.TellMeYourId(),
+            Scoped = scopeWhoIAm.TellMeYourId(),
+            Transient = transientWhoIAm.TellMeYourId()
         };
     }
 }

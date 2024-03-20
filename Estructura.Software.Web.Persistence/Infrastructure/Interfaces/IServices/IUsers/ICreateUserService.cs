@@ -2,8 +2,8 @@
 
 namespace Estructura.Software.Web.API.Domain.Interfaces.Services.Users
 {
-    public interface IDeleteUserServices
+    public interface ICreateUserService
     {
-        User delete(string name);
+        User Create(User user);
     }
 }

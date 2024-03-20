@@ -9,14 +9,14 @@ namespace Estructura.Software.Web.API.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly ICreateUserServices _createUserServices;
+        private readonly ICreateUserService _createUserServices;
         private readonly IGetAllUserService _getAllUserService;
-        private readonly IDeleteUserServices _deleteUserServices;
+        private readonly IDeleteUserService _deleteUserServices;
         private readonly IGetUserService _getUserService;
         private readonly IUpdateEmailService _updateEmailService;
 
 
-        public UserController(ICreateUserServices createUserServices, IGetAllUserService getAllUserService, IDeleteUserServices deleteUserServices, IGetUserService getUserService, IUpdateEmailService updateEmailService)
+        public UserController(ICreateUserService createUserServices, IGetAllUserService getAllUserService, IDeleteUserService deleteUserServices, IGetUserService getUserService, IUpdateEmailService updateEmailService)
         {
             _createUserServices = createUserServices;
             _getAllUserService = getAllUserService;
