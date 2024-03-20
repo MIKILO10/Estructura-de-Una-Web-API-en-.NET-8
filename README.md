@@ -7,7 +7,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/MIKILO10/Estructura-de-Una-Web-API-en-.NET-8.svg)](https://github.com/MIKILO10/Estructura-de-Una-Web-API-en-.NET-8/network)
 [![GitHub contributors](https://img.shields.io/github/contributors/MIKILO10/Estructura-de-Una-Web-API-en-.NET-8.svg)](https://github.com/MIKILO10/Estructura-de-Una-Web-API-en-.NET-8/graphs/contributors)
 
-¡Bienvenido a nuestra emocionante aventura de aprendizaje con .NET Core! 🚀
+# ¡Bienvenido a nuestra emocionante aventura de aprendizaje con .NET Core! 🚀
 
 ## Descripción del Proyecto
 
@@ -25,7 +25,7 @@ Este proyecto es un ejercicio práctico para aquellos que desean profundizar en 
 - **Autenticación/Autorización**: Aseguramos nuestros endpoints con autenticación basada en tokens JWT y control de acceso basado en roles.
 - **Entity Framework Core**: Utilizamos EF Core para interactuar con nuestra base de datos y realizar operaciones de persistencia.
 - **Caché**: Implementamos estrategias de caché para mejorar el rendimiento y la velocidad de respuesta de nuestra API.
-- **Verificación de Salud**: Monitorizamos la salud de nuestra API para garantizar su disponibilidad y rendimiento óptimos.
+- **Verificación de Estado**: Monitorizamos el Estado de nuestra API para garantizar su disponibilidad y rendimiento óptimos.
 
 ## Empezando
 
