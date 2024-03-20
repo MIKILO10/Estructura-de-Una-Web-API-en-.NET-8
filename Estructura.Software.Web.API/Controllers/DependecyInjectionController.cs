@@ -1,6 +1,5 @@
 ﻿using Estructura.Software.Web.API.Interfaces;
-using Estructura.Software.Web.API.Services;
-using Microsoft.AspNetCore.Http;
+using Estructura.Software.Web.Application.Application.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Estructura.Software.Web.API.Controllers

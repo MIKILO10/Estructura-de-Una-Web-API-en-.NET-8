@@ -4,8 +4,7 @@ using Estructura.Software.Web.API.Domain.Interfaces.Services.Users;
 using Estructura.Software.Web.API.Infrastructure.Repositories;
 using Estructura.Software.Web.API.Instances;
 using Estructura.Software.Web.API.Interfaces;
-using Estructura.Software.Web.API.Services;
-using Microsoft.Extensions.Configuration;
+using Estructura.Software.Web.Application.Application.Services;
 using Microsoft.OpenApi.Models;
 using System.Text.Json.Serialization;
 
@@ -53,9 +52,9 @@ namespace Estructura.Software.Web.API
             services.AddTransient(typeof(IServiceWhoIAm), typeof(ServiceWhoIAm));
 
             services.AddSingleton(typeof(IUserRepository), typeof(UserRepository));
-            services.AddSingleton(typeof(ICreateUserServices), typeof(CreateUserServices));
+            services.AddSingleton(typeof(ICreateUserService), typeof(CreateUserService));
             services.AddSingleton(typeof(IGetAllUserService), typeof(GetAllUserService));
-            services.AddSingleton(typeof(IDeleteUserServices), typeof(DeleteUserService));
+            services.AddSingleton(typeof(IDeleteUserService), typeof(DeleteUserService));
             services.AddSingleton(typeof(IGetUserService), typeof(GetUserService));
             services.AddSingleton(typeof(IUpdateEmailService), typeof(UpdateEmailService));
 

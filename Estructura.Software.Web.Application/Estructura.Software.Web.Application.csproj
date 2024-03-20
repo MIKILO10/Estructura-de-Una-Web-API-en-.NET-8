@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Estructura.Software.Web.Domain\Estructura.Software.Web.Domain.csproj" />
+    <ProjectReference Include="..\Estructura.Software.Web.DTO\Estructura.Software.Web.DTO.csproj" />
+    <ProjectReference Include="..\Estructura.Software.Web.Persistence\Estructura.Software.Web.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
