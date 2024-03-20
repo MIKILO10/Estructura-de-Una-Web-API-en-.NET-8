@@ -1,6 +1,6 @@
 ﻿using Estructura.Software.Web.API.Domain.Entities;
 using Estructura.Software.Web.API.Domain.Interfaces.Repositories;
-using Estructura.Software.Web.API.Domain.Interfaces.Services.Users;
+using Estructura.Software.Web.Application.Application.Interfaces.IUsers;
 
 namespace Estructura.Software.Web.API.Application.Services.Users
 {

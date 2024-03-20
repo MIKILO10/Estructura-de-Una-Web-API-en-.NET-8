@@ -1,4 +1,4 @@
-﻿namespace Estructura.Software.Web.API.Interfaces
+﻿namespace Estructura.Software.Web.Application.Application.Interfaces.IWhoIAm
 {
     public interface ISingletonWhoIAm
     {
