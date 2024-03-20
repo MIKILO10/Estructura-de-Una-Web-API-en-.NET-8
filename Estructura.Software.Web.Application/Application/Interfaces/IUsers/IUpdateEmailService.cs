@@ -1,5 +1,5 @@
 ﻿using Estructura.Software.Web.API.Domain.Entities;
-namespace Estructura.Software.Web.API.Domain.Interfaces.Services.Users
+namespace Estructura.Software.Web.Application.Application.Interfaces.IUsers
 {
     public interface IUpdateEmailService
     {

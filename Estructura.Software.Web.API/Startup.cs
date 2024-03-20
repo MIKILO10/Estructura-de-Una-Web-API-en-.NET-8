@@ -1,10 +1,10 @@
 ﻿using Estructura.Software.Web.API.Application.Services.Users;
 using Estructura.Software.Web.API.Domain.Interfaces.Repositories;
-using Estructura.Software.Web.API.Domain.Interfaces.Services.Users;
 using Estructura.Software.Web.API.Infrastructure.Repositories;
 using Estructura.Software.Web.API.Instances;
-using Estructura.Software.Web.API.Interfaces;
-using Estructura.Software.Web.Application.Application.Services;
+using Estructura.Software.Web.Application.Application.Interfaces.IUsers;
+using Estructura.Software.Web.Application.Application.Interfaces.IWhoIAm;
+using Estructura.Software.Web.Application.Application.Services.WhoIAm;
 using Microsoft.OpenApi.Models;
 using System.Text.Json.Serialization;
 

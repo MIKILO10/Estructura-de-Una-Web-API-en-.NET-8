@@ -1,4 +1,4 @@
-﻿using Estructura.Software.Web.API.Interfaces;
+﻿using Estructura.Software.Web.Application.Application.Interfaces.IWhoIAm;
 
 namespace Estructura.Software.Web.API.Instances
 {

@@ -1,5 +1,5 @@
-﻿using Estructura.Software.Web.API.Interfaces;
-using Estructura.Software.Web.Application.Application.Services;
+﻿using Estructura.Software.Web.Application.Application.Interfaces.IWhoIAm;
+using Estructura.Software.Web.Application.Application.Services.WhoIAm;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Estructura.Software.Web.API.Controllers

@@ -1,5 +1,5 @@
 ﻿using Estructura.Software.Web.API.Domain.Entities;
-using Estructura.Software.Web.API.Domain.Interfaces.Services.Users;
+using Estructura.Software.Web.Application.Application.Interfaces.IUsers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
